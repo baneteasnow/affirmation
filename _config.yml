@@ -40,20 +40,20 @@ collections:
 defaults:
   # _posts
   - 
-   scope:
-      path: ""
-      type: posts
-    values:
-      permalink: :slug
-      published: false
+  scope:
+     path: ""
+     type: posts
+   values:
+     permalink: :slug
+     published: false
       
   - 
-   scope:
-      path: "spiritual"
-      type: posts
-    values:
-      permalink: :slug
-      published: false
+  scope:
+     path: "spiritual"
+     type: posts
+   values:
+     permalink: :slug
+     published: false
       
  # _pages
   -
@@ -63,18 +63,18 @@ defaults:
    values:
      published: false
   -    
+   scope:
+     path: ""
+     type: pages
+   values:
+     layout: page-10    
+     published: false
+  -
     scope:
       path: ""
-      type: pages
     values:
-      layout: page-10    
+      layout: page-10
       published: false
-  -
-     scope:
-       path: ""
-     values:
-       layout: page-10
-       published: false
       
       # values:
       # the default layout to use if none is specified layout: post
