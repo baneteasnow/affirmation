@@ -47,14 +47,6 @@ defaults:
      permalink: :slug
      published: false
       
-  - 
-   scope:
-     path: "spiritual"
-     type: posts
-   values:
-     permalink: spiritual/:slug
-     published: false
-      
  # _pages
   -
    scope: 
