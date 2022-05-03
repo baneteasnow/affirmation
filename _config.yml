@@ -39,14 +39,16 @@ collections:
 # Defaults
 defaults:
   # _posts
-  - scope:
+  - 
+   scope:
       path: ""
       type: posts
     values:
       permalink: :slug
       published: false
       
-   - scope:
+  - 
+   scope:
       path: "spiritual"
       type: posts
     values:
