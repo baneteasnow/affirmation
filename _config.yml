@@ -40,7 +40,7 @@ collections:
 defaults:
   # _posts
   - 
-  scope:
+   scope:
      path: ""
      type: posts
    values:
@@ -48,7 +48,7 @@ defaults:
      published: false
       
   - 
-  scope:
+   scope:
      path: "spiritual"
      type: posts
    values:
