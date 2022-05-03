@@ -52,7 +52,7 @@ defaults:
      path: "spiritual"
      type: posts
    values:
-     permalink: :slug
+     permalink: spiritual/:slug
      published: false
       
  # _pages
