@@ -11,11 +11,16 @@
     {%-if site.goat_counter and jekyll.environment == "production"-%}
       {%-include goat_counter.html-%}
     {%-endif-%}
-
-    {% if page.custom_js %}
-      {% for js_file in page.custom_js %}
-        <script type="text/javascript" src="{{ site.baseurl }}/assets/js/{{ js_file }}.js"></script>
-      {% endfor %}
-    {% endif %}
+    <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker
+      .register('/sw.js')
+      .then(function() {
+        console.log("Service Worker Registered");
+      });
+  } else {
+    console.log('error register service worker')
+  }
+</script>
   </body>
 </html>
