@@ -43,7 +43,7 @@ defaults:
       path: ""
       type: posts
     values:
-      permalink: :slug.html
+      permalink: :path
       published: false
       
  # _pages
