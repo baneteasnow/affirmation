@@ -1,13 +1,8 @@
 ---
-layout: default
+layout: page-10
+published: true
 ---
-<header>
-  <h1>{{ site.title }}</h1>
-  {%-if site.theme_config.show_description-%}
-    <p>{{ site.description }}</p>
-  {%-endif-%}
-</header>
 
-{%-include menu_item.html collection=site.data.menu.entries-%}
-
-{{ content }}
+{%- assign totalNumberOfPosts = site.categories.affirmation | size -%}
+{%- assign i = totalNumberOfPosts | minus: NumberOfUnlistedPosts -%}
+{%-include randompost.html-%}
