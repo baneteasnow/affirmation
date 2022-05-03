@@ -3,6 +3,6 @@ layout: page-10
 published: true
 ---
 
-{%- assign totalNumberOfPosts = site.categories.affirmation | size -%}
+{%- assign totalNumberOfPosts = site.posts | size -%}
 {%- assign i = totalNumberOfPosts | minus: NumberOfUnlistedPosts -%}
 {%-include randompost.html-%}
