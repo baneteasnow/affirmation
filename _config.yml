@@ -30,7 +30,7 @@ kramdown:
 collections:
   pages:
     output: true
-    permalink: :path
+    permalink: :slug.html
   not-used:
     output: true
     permalink: :slug
