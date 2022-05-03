@@ -11,15 +11,17 @@
 {%-endif-%}
 
 {%- if posts.size > 0 -%}
-  <ul>
-    {%- for post in posts limit: include.limit -%}
-        <li>
-          <span>{{- post.date | date: site.theme_config.date_format -}}</span>
-          <a href="{{ post.url | relative_url }}">{{ post.title | downcase }}</a>
-        </li>
+<div>
+  {%- for post in posts limit: include.limit -%}
+    <div style="text-align: left; margin-bottom: 15px; line-height: 25px;">
+      <a href="{{ post.url | relative_url }}">{{ post.title | downcase }}</a> <!--&nbsp;-->
+       <!--   <span style="text-align: right; float: right; display: none;"> {{- post.date | date: site.theme_config.date_format -}}</span> -->
+              <div style="clear: both;"></div>
+          </div>
     {%- endfor -%}
-    {%- if include.show_more and limit_exceeded -%}
-      <li><a href="{{ include.show_more_url }}">{{ include.show_more_text | default: "Show more..." }}</a></li>
+    <div style="clear: both;"></div>
+   <span class="link1"> {%- if include.show_more and limit_exceeded -%}
+      <a href="{{ include.show_more_url }}">{{ include.show_more_text | default: "Show more..." }}</a></span>
     {%- endif -%}
-  </ul>
+  </div>
 {%- endif -%}
