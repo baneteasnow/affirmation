@@ -8,7 +8,7 @@ description: > # description of the site (multiple lines allowed)
 # set timezone
 timezone: Australia/Sydney
 markdown: kramdown
-permalink: /:slug.html
+permalink: /affirmation/:slug.html
 
 favicon: "logo.png" # name+extension of favicon (which must be put on the root folder)
 
@@ -30,10 +30,10 @@ kramdown:
 collections:
   pages:
     output: true
-    permalink: /:path
+    permalink: /affirmation/:path
   not-used:
     output: true
-    permalink: /:slug
+    permalink: /affirmation/:slug
   drafts:
     output: false
 
