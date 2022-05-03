@@ -30,10 +30,10 @@ kramdown:
 collections:
   pages:
     output: true
-    permalink: /affirmation/:path
+    permalink: /:path
   not-used:
     output: true
-    permalink: /affirmation/:slug
+    permalink: /:slug
   drafts:
     output: false
 
@@ -55,7 +55,7 @@ defaults:
      scope:
        path: ""
      values:
-       layout: "page-10"
+       layout: page-10
        published: false
       
       # values:
