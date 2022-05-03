@@ -36,18 +36,26 @@ collections:
     permalink: :slug
   drafts:
     output: false
-
+# Defaults
 defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      published: false
+      
+ # _pages
   -
    scope: 
      path: ""
-     type: "drafts"
+     type: drafts
    values:
      published: false
   -    
     scope:
       path: ""
-      type: "pages"
+      type: pages
     values:
       layout: page-10    
       published: false
