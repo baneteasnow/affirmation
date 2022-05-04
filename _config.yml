@@ -10,7 +10,7 @@ timezone: Australia/Sydney
 markdown: kramdown
 permalink: :slug.html
 
-favicon: "/affirmation/logo.png" # name+extension of favicon (which must be put on the root folder)
+favicon: "/logo.png" # name+extension of favicon (which must be put on the root folder)
 
 remote_theme: riggraz/no-style-please # if you are using GitHub Pages, change it to remote_theme: riggraz/no-style-please theme: no-style-please
 
