@@ -20,7 +20,7 @@ body[a="dark"] { @include dark-appearance; }
 // block body's background propagation
 // see: https://stackoverflow.com/a/61265706
 // w width:fit-content   max-width: 640px;
-html, body { background: #fdf0e9; }
+html, body { background: white; }
 
 /*:root {
    font-size: 62.5%;  
