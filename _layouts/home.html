@@ -4,15 +4,26 @@ published: true
 ---
 
 <i>
-  <dl>
-    <dt>Just slow down</dt>
-  <dd>and enjoy the moment!</dd>
-  </dl>
+	<dl>
+		<dt>Just slow down</dt>
+		<dd>and enjoy the moment!</dd>
+	</dl>
 </i>
 
-{%-include home.html-%}
+{%-include home.html-%} {{ content }}
 
-{{ content }}
-
-<div><a href='/random.html' title='random post'><img src='/assets/lotus.png' alt='random post' style='width:35px; height:35px; display: inline-block;'></a></div>
-
+<div>
+	<a href="https://affirmation.next52books.com/affirmationlist"
+		>affirmationlist</a
+	>
+</div>
+<div>
+	<a
+		href="/random.html"
+		title="random post"
+		><img
+			src="/assets/lotus.png"
+			alt="random post"
+			style="width: 35px; height: 35px; display: inline-block"
+	/></a>
+</div>

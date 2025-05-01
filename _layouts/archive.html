@@ -2,14 +2,32 @@
 layout: default
 ---
 
-<div><a href='/' title='random post'><img src='/assets/lotus.png' alt='random post' style='width:25px; height:25px; display: inline-block;'></a></div>
+<div>
+	<a
+		href="/"
+		title="random post"
+		><img
+			src="/assets/lotus.png"
+			alt="random post"
+			style="width: 25px; height: 25px; display: inline-block"
+	/></a>
+</div>
 <br />
 
 {%-include post_list.html category=page.which_category-%}
 <br />
+
 <div>
-  <a href='https://www.instagram.com/mutluluganotlar/' title="instagram" target="_blank" rel="noreferrer,nofollow"><img src="https://raw.githubusercontent.com/baneteasnow/baneteasnow.github.io/c1adc9255194fedc1206bfbc28d0c739112c9f2f/assets/instagram.png" title="instagram" alt="instagram" style="width:20px; height:20px; display: inline-block; vertical-align: text-bottom;">&nbsp;</a>
-</div>
-<div>
-  <img src="/assets/total.png" title="total number of posts" alt="total number of posts" style="width:25px; height:25px; display: inline-block; vertical-align: text-bottom;"> &nbsp; <i>{%-include numberofposts.html-%}</i>
+	<img
+		src="/assets/total.png"
+		title="total number of posts"
+		alt="total number of posts"
+		style="
+			width: 25px;
+			height: 25px;
+			display: inline-block;
+			vertical-align: text-bottom;
+		"
+	/>
+	&nbsp; <i>{%-include numberofposts.html-%}</i>
 </div>
