@@ -3,13 +3,13 @@
 <script>
 	const allPosts = [
 	  {%- for item in site.data.list -%}
-	    { title: "{{ item.title | escape }}", link: "affirmationlist#{{ item.link }}" }{%- unless forloop.last -%},{%- endunless -%}
+	    { affirmation: "{{ item.affirmation | escape }}", link: "affirmationlist#{{ item.link }}" }{%- unless forloop.last -%},{%- endunless -%}
 	  {%- endfor -%}
 	];
 
 	function getRandomPostTitle() {
 	  const randomPost = allPosts[Math.floor(Math.random() * allPosts.length)];
-	  return randomPost.title;
+	  return randomPost.affirmation;
 	}
 
 	// Div’e yazdır
