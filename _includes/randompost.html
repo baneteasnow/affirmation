@@ -1,16 +1,17 @@
+<div id="random-post-title"></div>
+
 <script>
-	const comingFromPost = document.referrer;
+	const allPosts = [
+	  {%- for item in site.data.list -%}
+	    { title: "{{ item.title | escape }}", link: "affirmationlist#{{ item.link }}" }{%- unless forloop.last -%},{%- endunless -%}
+	  {%- endfor -%}
+	];
 
-	const allPosts =
-	  [{%- for item in site.data.list -%}
-	    {%- assign i = i | minus: 1 -%}
-	      "{{ item.affirmation }}"{%- unless i == 0 -%},{%- endunless -%}
-	    {%- endfor -%}];
-
-	function linkToRandomBlogPost() {
-	    const randomPostLink = allPosts[Math.floor(Math.random() * allPosts.length)];
-	    return allPosts[randomPostLink].affirmation;
+	function getRandomPostTitle() {
+	  const randomPost = allPosts[Math.floor(Math.random() * allPosts.length)];
+	  return randomPost.title;
 	}
 
-	location.replace(linkToRandomBlogPost())
+	// Div’e yazdır
+	document.getElementById("random-post-title").textContent = getRandomPostTitle();
 </script>
