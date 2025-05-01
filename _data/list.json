@@ -1,0 +1,17 @@
+[
+	{
+		"link": 1001,
+		"affirmation": "affirmaion sentence 1",
+		"publisher": "meliora"
+	},
+	{
+		"link": 1002,
+		"affirmation": "affirmaion sentence 2",
+		"publisher": "youwa"
+	},
+	{
+		"urllink": 1003,
+		"affirmation": "affirmaion sentence 3",
+		"publisher": "intelligent change"
+	}
+]
