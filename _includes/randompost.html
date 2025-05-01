@@ -4,12 +4,12 @@
 	const allPosts =
 	  [{%- for item in site.data.list -%}
 	    {%- assign i = i | minus: 1 -%}
-	      "affirmationlist#{{ item.link }}"{%- unless i == 0 -%},{%- endunless -%}
+	      "{{ item.affirmation }}"{%- unless i == 0 -%},{%- endunless -%}
 	    {%- endfor -%}];
 
 	function linkToRandomBlogPost() {
 	    const randomPostLink = allPosts[Math.floor(Math.random() * allPosts.length)];
-	    return randomPostLink;
+	    return allPosts[randomPostLink].affirmation;
 	}
 
 	location.replace(linkToRandomBlogPost())
