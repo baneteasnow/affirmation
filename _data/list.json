@@ -1,17 +1,262 @@
 [
 	{
 		"link": 1001,
-		"affirmation": "affirmation sentence 1",
-		"publisher": "meliora"
+		"affirmation": "I achieve what I want effortlessly, because it is in perfect alignment with who I am.",
+		"publisher": "intelligent change"
 	},
 	{
 		"link": 1002,
-		"affirmation": "affirmation sentence 2",
-		"publisher": "youwa"
+		"affirmation": "I make the best of every moment, every day, and every situation I am faced with.",
+		"publisher": "intelligent change"
 	},
 	{
 		"link": 1003,
-		"affirmation": "affirmation sentence 3",
+		"affirmation": "Good things are all around me. Most importantly, good things are within me.",
+		"publisher": "intelligent change"
+	},
+	{
+		"link": 1004,
+		"affirmation": "I put my energy into things that matter to me.",
+		"publisher": "intelligent change"
+	},
+	{
+		"link": 1005,
+		"affirmation": "I live life with a constant sense of intention. From moment to moment, I know why I am here.",
+		"publisher": "intelligent change"
+	},
+	{
+		"link": 1006,
+		"affirmation": "I attract people who help me on my journey.",
+		"publisher": "intelligent change"
+	},
+	{
+		"link": 1007,
+		"affirmation": "I always focus on what I can do and what is within my power. All solutions come from there.",
+		"publisher": "intelligent change"
+	},
+	{
+		"link": 1008,
+		"affirmation": "My grateful heart attracts goodness and abundance into my life.",
+		"publisher": "intelligent change"
+	},
+	{
+		"link": 1009,
+		"affirmation": "I let go of all resistance to change.",
+		"publisher": "intelligent change"
+	},
+	{
+		"link": 1010,
+		"affirmation": "I love and accept myself exactly as I am.",
+		"publisher": "intelligent change"
+	},
+	{
+		"link": 1011,
+		"affirmation": "My life reflects my vision and my authentic self.",
+		"publisher": "intelligent change"
+	},
+	{
+		"link": 1012,
+		"affirmation": "I bring my positive vibe and a big smile wherever I go.",
+		"publisher": "intelligent change"
+	},
+	{
+		"link": 1013,
+		"affirmation": "I see challenges in my life as opportunities for growth.",
+		"publisher": "intelligent change"
+	},
+	{
+		"link": 1014,
+		"affirmation": "Every day I am learning and growing.",
+		"publisher": "intelligent change"
+	},
+	{
+		"link": 1015,
+		"affirmation": "I always believe in myself. I am my biggest supporter.",
+		"publisher": "intelligent change"
+	},
+	{
+		"link": 1016,
+		"affirmation": "Inside of me there is an endless pool of peace, calmness, and harmony.",
+		"publisher": "intelligent change"
+	},
+	{
+		"link": 1017,
+		"affirmation": "I always stop to smell the roses.",
+		"publisher": "intelligent change"
+	},
+	{
+		"link": 1018,
+		"affirmation": " I love my life. I love everything and everyone in it.",
+		"publisher": "intelligent change"
+	},
+	{
+		"link": 1019,
+		"affirmation": "I achieve what I want effortlessly, because it is in perfect alignment with who I am.",
+		"publisher": "intelligent change"
+	},
+	{
+		"link": 1020,
+		"affirmation": "I have the freedom to live life on my own terms.",
+		"publisher": "intelligent change"
+	},
+	{
+		"link": 1021,
+		"affirmation": "I welcome feedback from others with open arms, because it helps me grow and become a better human being.",
+		"publisher": "intelligent change"
+	},
+	{
+		"link": 1022,
+		"affirmation": "As I breathe slowly and deeply, I feel more relaxed and energized.",
+		"publisher": "intelligent change"
+	},
+	{
+		"link": 1023,
+		"affirmation": "I trust my instinct. The inner voice that comes from within my heart is my guide and I follow its direction.",
+		"publisher": "intelligent change"
+	},
+	{
+		"link": 1024,
+		"affirmation": "I am full of energy and life from the moment I wake up till the moment I go to sleep.",
+		"publisher": "intelligent change"
+	},
+	{
+		"link": 1025,
+		"affirmation": "I accept myself and I accept others.",
+		"publisher": "intelligent change"
+	},
+	{
+		"link": 1026,
+		"affirmation": "I am enough and I will always be enough.",
+		"publisher": "intelligent change"
+	},
+	{
+		"link": 1027,
+		"affirmation": "I am so grateful to be alive, healthy, and thriving.",
+		"publisher": "intelligent change"
+	},
+	{
+		"link": 1028,
+		"affirmation": "I am here to live my best life.",
+		"publisher": "intelligent change"
+	},
+	{
+		"link": 1029,
+		"affirmation": "I have a gift and I am responsible for sharing it with the world.",
+		"publisher": "intelligent change"
+	},
+	{
+		"link": 1030,
+		"affirmation": "",
+		"publisher": "intelligent change"
+	},
+	{
+		"link": 1031,
+		"affirmation": "",
+		"publisher": "intelligent change"
+	},
+	{
+		"link": 1032,
+		"affirmation": "",
+		"publisher": "intelligent change"
+	},
+	{
+		"link": 1033,
+		"affirmation": "",
+		"publisher": "intelligent change"
+	},
+	{
+		"link": 1034,
+		"affirmation": "",
+		"publisher": "intelligent change"
+	},
+	{
+		"link": 1035,
+		"affirmation": "",
+		"publisher": "intelligent change"
+	},
+	{
+		"link": 1036,
+		"affirmation": "",
+		"publisher": "intelligent change"
+	},
+	{
+		"link": 1037,
+		"affirmation": "",
+		"publisher": "intelligent change"
+	},
+	{
+		"link": 1038,
+		"affirmation": "",
+		"publisher": "intelligent change"
+	},
+	{
+		"link": 1039,
+		"affirmation": "",
+		"publisher": "intelligent change"
+	},
+	{
+		"link": 1040,
+		"affirmation": "",
+		"publisher": "intelligent change"
+	},
+	{
+		"link": 1041,
+		"affirmation": "",
+		"publisher": "intelligent change"
+	},
+	{
+		"link": 1042,
+		"affirmation": "",
+		"publisher": "intelligent change"
+	},
+	{
+		"link": 1043,
+		"affirmation": "",
+		"publisher": "intelligent change"
+	},
+	{
+		"link": 1044,
+		"affirmation": "",
+		"publisher": "intelligent change"
+	},
+	{
+		"link": 1045,
+		"affirmation": "",
+		"publisher": "intelligent change"
+	},
+	{
+		"link": 1046,
+		"affirmation": "",
+		"publisher": "intelligent change"
+	},
+	{
+		"link": 1047,
+		"affirmation": "",
+		"publisher": "intelligent change"
+	},
+	{
+		"link": 1048,
+		"affirmation": "",
+		"publisher": "intelligent change"
+	},
+	{
+		"link": 1049,
+		"affirmation": "",
+		"publisher": "intelligent change"
+	},
+	{
+		"link": 1050,
+		"affirmation": "",
+		"publisher": "intelligent change"
+	},
+	{
+		"link": 1051,
+		"affirmation": "",
+		"publisher": "intelligent change"
+	},
+	{
+		"link": 1052,
+		"affirmation": "",
 		"publisher": "intelligent change"
 	}
 ]
